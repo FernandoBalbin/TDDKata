@@ -1,4 +1,6 @@
 class Conjunto:
-    def promedio(self):
+    def __init__(self, conjunto):
+        self.__conjunto=conjunto
 
-        return False
+    def promedio(self):
+        return None
