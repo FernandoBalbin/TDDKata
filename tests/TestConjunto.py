@@ -6,4 +6,6 @@ class TestConjunto(unittest.TestCase):
         conjunto = Conjunto([])
         self.assertIsNone(conjunto.promedio())
 
-    pass
+    def test_cojunto_unElemento_retornaValorUnicoElemento(self):
+        conjunto = Conjunto( [5] )
+        self.assertEqual(5, conjunto.promiedo())
